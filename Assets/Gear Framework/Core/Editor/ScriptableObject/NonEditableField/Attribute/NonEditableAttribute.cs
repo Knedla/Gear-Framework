@@ -1,4 +1,4 @@
 ﻿namespace UnityEngine
 {
-    class NonEditableAttribute : PropertyAttribute { }
+    public class NonEditableAttribute : PropertyAttribute { }
 }

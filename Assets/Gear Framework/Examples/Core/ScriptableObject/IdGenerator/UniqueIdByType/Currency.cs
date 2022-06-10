@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Gear.Examples.UniqueIdByTypeExample
+namespace Gear.Examples
 {
     [CreateAssetMenu(fileName = "Currency", menuName = "Gear Framework/Examples/IdGenerator/UniqueIdByType/Currency")]
     public class Currency : ScriptableObject

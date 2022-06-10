@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Gear.Examples.UniqueIdByCustomTypeExample
+namespace Gear.Examples
 {
     [CreateAssetMenu(fileName = "Shield", menuName = "Gear Framework/Examples/IdGenerator/UniqueIdByCustomType/Shield")]
     public class Shield : ScriptableObject

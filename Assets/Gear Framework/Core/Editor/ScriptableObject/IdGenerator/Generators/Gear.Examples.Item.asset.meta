@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: c372982b7fd643940a59064907a751cc
+guid: 4686da4aee6ecf04abd841c4288220d9
 labels:
-- Examples.UniqueIdByTypeExample.Currency
+- Gear.Examples.Item
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

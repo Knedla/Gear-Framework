@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Gear.Examples.UniqueIdByTypeExample
+namespace Gear.Examples
 {
     [CreateAssetMenu(fileName = "Weapon", menuName = "Gear Framework/Examples/IdGenerator/GUIDGenerator/Weapon")]
     public class Weapon : ScriptableObject

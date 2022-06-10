@@ -1,4 +1,4 @@
 ﻿namespace UnityEngine
 {
-    class UniqueIdByTypeAttribute : PropertyAttribute { }
+    public class UniqueIdByTypeAttribute : PropertyAttribute { }
 }

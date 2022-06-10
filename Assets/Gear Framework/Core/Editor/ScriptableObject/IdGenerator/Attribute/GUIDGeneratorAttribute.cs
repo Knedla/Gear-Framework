@@ -1,4 +1,4 @@
 ﻿namespace UnityEngine
 {
-    class GUIDGeneratorAttribute : PropertyAttribute { }
+    public class GUIDGeneratorAttribute : PropertyAttribute { }
 }

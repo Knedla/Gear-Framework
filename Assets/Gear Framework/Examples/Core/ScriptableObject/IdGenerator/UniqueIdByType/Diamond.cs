@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Gear.Examples.UniqueIdByTypeExample
+namespace Gear.Examples
 {
     [CreateAssetMenu(fileName = "Diamond", menuName = "Gear Framework/Examples/IdGenerator/UniqueIdByType/Diamond")]
     public class Diamond : Currency { }
