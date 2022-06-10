@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:TextField picking-mode="Ignore" name="newTextField" />
+    <ui:Button text="Add" display-tooltip-when-elided="true" name="addButton" focusable="false" />
+    <ui:ScrollView name="scrollView" focusable="false" />
+    <ui:Button text="Update" display-tooltip-when-elided="true" name="updateButton" focusable="false" />
+    <ui:Button text="Delete" display-tooltip-when-elided="true" name="deleteButton" focusable="false" />
+    <ui:Button text="Select" display-tooltip-when-elided="true" name="selectButton" focusable="false" />
+    <ui:Button text="Refresh" display-tooltip-when-elided="true" name="refreshButton" focusable="false" />
+    <ui:TextField picking-mode="Ignore" focusable="false" multiline="true" readonly="true" is-delayed="false" name="messageTextField" />
+</ui:UXML>
