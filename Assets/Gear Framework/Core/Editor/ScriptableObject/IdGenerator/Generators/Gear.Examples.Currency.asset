@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf81337b81291b44bb2866e7d754850, type: 3}
   m_Name: Gear.Examples.Currency
   m_EditorClassIdentifier: 
-  lastAssignedId: 0
+  lastAssignedId: 3
