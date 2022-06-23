@@ -7,7 +7,7 @@ namespace UnityEditor
 {
     public partial class Config
     {
-        public readonly static string AssetBundlesRootOutputPath = Path.Combine(PathExtension.ReplaceSlashToBackslash(Application.dataPath), "AssetBundles");
+        public readonly static string AssetBundlesRootOutputDirectoryPath = Path.Combine(PathExtension.ReplaceSlashToBackslash(Application.dataPath), "AssetBundles");
     }
 }
 #endif

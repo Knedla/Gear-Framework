@@ -7,7 +7,7 @@ namespace UnityEditor
 {
     public abstract class BaseBuildAssetBundles
     {
-        protected static string GetRootOutputPath(BuildTarget buildTarget) => Path.Combine(Config.AssetBundlesRootOutputPath, buildTarget.ToString());
+        protected static string GetRootOutputPath(BuildTarget buildTarget) => Path.Combine(Config.AssetBundlesRootOutputDirectoryPath, buildTarget.ToString());
 
         [MenuItem("Assets/Build AssetBundles")]
         static void BuildAssetBundles()
@@ -43,7 +43,7 @@ namespace UnityEditor
         static void ClearData() => ExecutionExtension.LogExecuteWrapper(() => ClearDataExecute(), "Clear");
         static void ClearDataExecute()
         {
-            DirectoryExtension.DeleteDirectory(Config.AssetBundlesRootOutputPath);
+            DirectoryExtension.DeleteDirectory(Config.AssetBundlesRootOutputDirectoryPath);
             DirectoryExtension.DeleteDirectory(Application.streamingAssetsPath);
             AssetDatabase.Refresh();
         }
