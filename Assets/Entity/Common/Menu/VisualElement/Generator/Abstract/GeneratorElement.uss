@@ -1,0 +1,21 @@
+#select-asset-button
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-action-true
+{
+    background-color: #00B100;
+    color: black;
+}
+
+.center-data
+{
+    -unity-text-align: lower-center;
+}
+
+.green-text
+{
+    color: #00FF00;
+}

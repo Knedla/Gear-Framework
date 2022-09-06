@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:TextField picking-mode="Ignore" name="asset-generator-element-new-text-field" />
+    <ui:Button text="Add" display-tooltip-when-elided="true" name="asset-generator-element-add-button" focusable="false" />
+    <ui:ScrollView name="asset-generator-element-scroll-view" focusable="false" />
+    <ui:Button text="Update" display-tooltip-when-elided="true" name="asset-generator-element-update-button" focusable="false" />
+    <ui:Button text="Delete" display-tooltip-when-elided="true" name="asset-generator-element-delete-button" focusable="false" />
+    <ui:Button text="Select" display-tooltip-when-elided="true" name="asset-generator-element-select-button" focusable="false" />
+    <ui:Button text="Refresh" display-tooltip-when-elided="true" name="asset-generator-element-refresh-button" focusable="false" />
+    <ui:Label display-tooltip-when-elided="true" name="asset-generator-element-message-label" />
+</ui:UXML>

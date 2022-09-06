@@ -1,0 +1,14 @@
+#image-details-element-visual-element
+{
+    width: 200px;
+}
+
+#image-details-element-image
+{
+    height: 200px;
+}
+
+#image-details-element-label
+{
+    -unity-text-align: lower-center;
+}

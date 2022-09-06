@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="image-details-element-visual-element">
+        <ui:Image name="image-details-element-image" />
+        <ui:Label name="image-details-element-label" />
+    </ui:VisualElement>
+</ui:UXML>

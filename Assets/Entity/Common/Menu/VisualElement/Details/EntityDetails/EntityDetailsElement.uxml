@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:ScrollView>
+        <ui:VisualElement name="images-visual-element" />
+        <ui:VisualElement name="data-visual-element" />
+    </ui:ScrollView>
+</ui:UXML>

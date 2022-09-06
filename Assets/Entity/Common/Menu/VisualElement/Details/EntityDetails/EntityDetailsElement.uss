@@ -1,0 +1,5 @@
+#images-visual-element
+{
+    flex-direction: row;
+    justify-content: Center;
+}

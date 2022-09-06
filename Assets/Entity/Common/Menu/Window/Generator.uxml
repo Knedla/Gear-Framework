@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+	<ui:Button text="Reload" display-tooltip-when-elided="true" name="reload-button" tooltip="Reload the window to get the latest data changes" />
+	<ui:Button text="Select DbContext" display-tooltip-when-elided="true" name="select-dbcontext-button" tooltip="Select an asset file in the project window" />
+</ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" class="center-data">
+	<ui:Label name="title-label" />
+	<ui:Button text="Generte All" display-tooltip-when-elided="true" name="generate-all-assets-button" tooltip="Generte all new assets" />
+	<ui:Button text="Populate" display-tooltip-when-elided="true" name="populate-data-button" />
+	<ui:Button text="Select" display-tooltip-when-elided="true" name="select-asset-button" tooltip="Select an asset file in the project window" />
+</ui:UXML>
