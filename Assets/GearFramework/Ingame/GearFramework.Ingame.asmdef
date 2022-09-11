@@ -1,0 +1,17 @@
+{
+    "name": "GearFramework.Ingame",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4c8faf5b8875ff9419706cbd834da425",
+        "GUID:d021a26934225c045ba640a0bf9bdddd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
