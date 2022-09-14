@@ -1,0 +1,35 @@
+AssetBundle - all logic for building assets bundles - rough concept; still under development
+Attributes
+	IdGenerator - set the Id value when a new scriptable object instance created
+	NonEditable - prevent the scripted object field from being editable in the inspector
+Components
+	Logger - log messages in debug and runtime mode independently
+Extensions
+	String
+		AddSpacesBeforeCapital - Add Spaces Before Capital
+MenuItes
+	DeleteAllSettingsAssetsDirectories - delete all Gear Framework settings 
+	TestHelper - used for quick debug/test code in the inspector
+Tools
+	Common
+		NameGenerator - generate names
+		TextStyle - provide style for text
+	ScriptableObject
+		Database - contains a list of instances of a specific type of scriptable object
+		Group - not-developer friendly and extandable enumeration
+	VisualElement
+		AssetGenerator - generate instances of sciptable object
+		ExtendedSettings - enable Gear Framework settings to be composed of multiple VisualElements
+		PropertyDrawer - draws the fields of the scripted object
+Types
+	Reference - set the value through a custom value or a scriptable object that contains the value
+Utils
+	IO
+		DirectoryUtil - common directory actions
+		FileUtil - common file actions
+		PathUtil - get various path configurations
+	ActionUtil - wrap the execution of the action with a log when it starts and when it ends
+	PrefabUtil - create prefab
+	ReflectionUtil - get various types and instances
+	ScriptableObjectUtil - get / create / save instances
+	StopwatchUtil - measures the execution speed of actions

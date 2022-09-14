@@ -1,0 +1,2 @@
+SplitAmount - split stackable items
+Wallet - currency records, operations and validations
