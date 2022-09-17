@@ -102,6 +102,11 @@ Data namespace
    -> public class Diamond : Currency<Definition.Diamond>
 
 
+- STEP 5: - Populte data -
+
+entity editor: https://youtu.be/MuolyGKK5uw?t=89
+
+
 
 ---
 
@@ -112,4 +117,3 @@ Data namespace
   - Items should be loaded from ItemDatabase and Currencies should be loaded from CurrencyDatabase
   - also, Items don't have a MaxAmount field/prop as a Currency, but they do have a Stackable field/prop
 - if you want you can put everything in one database 'public class DataEntityDatabase : Database<Definition.DataEntity> { }', but I personally like to separate the logical units
-  
