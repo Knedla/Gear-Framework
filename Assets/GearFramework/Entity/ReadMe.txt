@@ -102,6 +102,7 @@ Data namespace
    -> public class Diamond : Currency<Definition.Diamond>
 
 
+
 - STEP 5: - Populte data -
 
 entity editor: https://youtu.be/MuolyGKK5uw?t=89
